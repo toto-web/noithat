@@ -1,0 +1,391 @@
+/*
+ viet add thanh kẻ
+
+*/
+
+/*slider*/
+ .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 032 css*/
+        .jssorb032 {position:absolute;}
+        .jssorb032 .i {position:absolute;cursor:pointer;}
+        .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+        .jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+/* .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill-opacity: 1;}
+        .jssorb052 .i.idn {opacity:.3;}
+
+        .jssora053 {display:block;position:absolute;cursor:pointer;}
+        .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+        .jssora053:hover {opacity:.8;}
+        .jssora053.jssora053dn {opacity:.5;}
+        .jssora053.jssora053ds {opacity:.3;pointer-events:none;}*/
+/*---------*/
+
+.item-product{
+  color: white;
+
+}
+
+.item-product h3{
+  background-color: #fdb913;
+   font-size: 20px;
+  margin: 0; 
+  padding: 5px;
+  width: 250px;
+  padding-left: 10px;
+}
+.horizontal-product{
+  width: 100%; 
+  height: 2px; 
+  background-color: #fdb913;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.view-more{
+   text-align: right;
+    color: #fdb913; 
+}
+/* ----------------------*/
+.itemproducts
+{
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #ebebeb;
+}
+.itemproducts:hover
+{
+  border: 1px solid #fdb913;
+}
+.proimgs
+{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.proimgs a
+{
+  display: block;
+  text-align: center;
+  position: relative;
+}
+.list_product .itemproducts .proimgs img
+{
+  display: inline-block;
+  text-align: center;
+  margin: 15px auto;
+  width: 200px;
+  height: 200px;
+}
+.boxnames:hover
+{
+  color: #FBAF3F;
+}
+.nameproducts
+{
+  font-size: 15px;
+  font-family: Roboto_Bold, Arial, Tahoma, sans-serif;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #49494a;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+.boxprices
+{
+  font-family: futurabold, Arial, Tahoma, sans-serif;
+  padding: 1% 8%;
+  height: 60px;
+  position: relative;
+}
+.pricelines
+{
+  font-size: 15px;
+  color: #b6b6b6;
+  text-decoration: line-through;
+  font-family: Roboto_Regular, Arial, Tahoma, sans-serif;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+}
+.pricesales
+{
+  font-size: 18px;
+  color: #fdb913;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Roboto_Bold, Arial, Tahoma;
+}
+.title_highlight
+{
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  font-family: Roboto_Bold, Arial, Tahoma, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  word-spacing: 0.8px;
+  margin: 0;
+  padding: 0;
+}
+.title_highlight a
+{
+  color: #000;
+}
+.line_symbol
+{
+  display: block;
+  text-align: center;
+  margin: 6px auto;
+  width: 100%;
+  overflow: hidden;
+}
+.discount
+{
+  color: #fff;
+  font-size: 15px;
+  background-color: #e90a00;
+  padding: 1px 10px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  font-family:Roboto_Bold, Arial, Tahoma;
+  z-index: 123;
+}
+.icon_pronew
+{
+  color: #fff;
+  font-size: 15px;
+  background-color: #39b54a;
+  padding: 1px 11px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family:Roboto_Regular, Arial, Tahoma;
+  z-index: 124;
+}
+.iconsprites_prohot
+{
+  background-position: -4px -233px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 55px;
+  display: inline-block;
+  width: 55px;
+  z-index: 125;
+}
+.iconsprites_prosimple
+{
+  background-position: -150px -228px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 59px;
+  display: inline-block;
+  width: 59px;
+  z-index: 126;
+}
+.gotoleft
+{
+  left: 75px;
+}
+.list_product i:before
+{
+  font-size: 15px;
+  color: #fff;
+  margin-left: 0px;
+}
+.list_product .owl-prev i
+{
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.list_product .owl-next i
+{
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: -24px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
+{
+  background: #fdb913;
+  width: 12px;
+  height: 12px;
+}
+.owl-theme .owl-dots .owl-dot span
+{
+  background: #e1e1e1;
+  margin: 5px 3px;
+  width: 11px;
+  height: 11px;
+}
+.list_product .owl-nav .owl-prev 
+{
+  position: absolute;
+  bottom: 42px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid rgba(0,0,0,0.5);
+  border-right: 50px solid transparent;
+  display: inline-block;
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.list_product .owl-nav .owl-next
+{
+  position: absolute;
+  bottom: 42px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid rgba(0,0,0,0.5);
+  border-left: 50px solid transparent;
+  display: inline-block;
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover
+{
+  background-color: transparent;
+}
+.list_product .owl-theme .owl-dots
+{
+  position: absolute;
+  bottom: 12px;
+  left: 45%;
+}
+.list_product .owl-prev:hover i:before
+{
+  color: #fdb913
+}
+.list_product .owl-next:hover i:before
+{
+  color: #fdb913
+}
+.list_product .owl-dots
+{
+  margin-top: 14px;
+}
+@media only screen and (max-width:1024px)
+{
+  
+}
+@media only screen and (max-width:800px)
+{
+  .list_product .itemproducts .proimgs img
+  {
+    width: 180px;
+    height: 180px;
+  }
+  .iconsprites_prosimple
+  {
+    background-position: -253px -239px;
+    height: 46px;
+    width: 46px;
+    left: 0px;
+    top: 0px;
+  }
+  .iconsprites_prohot
+  {
+    background-position: -213px -241px;
+    height: 41px;
+    width: 41px;
+    left: 0px;
+    top: 0px;
+  }
+  .icon_pronew
+  {
+    font-size: 15px;
+    padding: 0px 5px;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+  }
+  .gotoleft
+  {
+    left: 50px;
+  }
+  .discount
+  {
+    padding: 1px 5px;
+    font-size: 13px;
+    right: 0px;
+    top: 10px;
+  }
+}
+@media only screen and (max-width:500px)
+{
+	.list_product .itemproducts .proimgs img
+	{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media only screen and (max-width:320px)
+{
+  .discount
+  {
+    padding: 1px 2px;
+  }
+}
